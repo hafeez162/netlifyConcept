@@ -678,13 +678,13 @@ header .main-navbar ul.navbar-menu li.btn a:before {
     -webkit-animation: mover 5s infinite  alternate;
     animation: mover 7s infinite  alternate;
 }
-@-webkit-keyframes mover {
+@keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(50px); }
     0% { transform: translateY(70px); }
     100% { transform: translateY(0px); }
 }
-@-webkit-keyframes moverodd {
+@keyframes moverodd {
     0% { transform: translateY(0); }
     100% { transform: translateY(-50px); }
     0% { transform: translateY(-50px); }
@@ -2220,7 +2220,7 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
         font-weight: bold;
         font-family: sans-serif;
         background: -webkit-linear-gradient(357deg, #F57F3D, #D7392F);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: #280d0d00;
     }
     
@@ -2831,7 +2831,7 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
         font-weight: bold;
         font-family: sans-serif;
         background: -webkit-linear-gradient(357deg, #F57F3D, #D7392F);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: #280d0d00;
     }
     
