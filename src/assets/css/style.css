@@ -3580,14 +3580,14 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
       transform: rotate(360deg);
     }
   } */
-  @keyframes rotating {
+   @keyframes rotating {
     from {
-        transform: rotate3d(0deg);
+        transform: rotate(0deg);
     }
     to {
-        transform: rotate3d(360deg);
+        transform: rotate(360deg);
     }
-  }
+  } 
   .half-ball {
     animation: rotating 4s linear infinite;
    
