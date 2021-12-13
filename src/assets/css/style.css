@@ -102,11 +102,71 @@ header {
     width: 100%;
     z-index: 9;
 }
+
+header .site-logo img{
+    max-width: 100%;
+}
+#popup img#popup_image {
+    max-width: 99%;
+    padding: 32px;
+}
+#popup{
+    z-index: 2;
+    left: 10%;
+    top: 18%;
+    position: fixed;
+    background: #ffeeee;
+}
+.intro {
+    width: 100%;
+    height: 100%;
+    background: #00000021;
+    left: 0;
+    right: 0;
+    display: block;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+
+/* div#popup:before{
+    content: url('../images/cancel.png');
+    position: absolute;
+
+} */
+#cancle-btn{
+    display: none;
+}
+img#popup-cancel-icon {
+    position: absolute;
+    width: 4%;
+    right: 0;
+    top: 0px;
+}
+
+
+#popup .col-md-6{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+#popup {
+    margin: 0 auto;
+    top: 18%;
+    position: fixed;
+    background: #ffeeee;
+}
+
 header .site-logo {
-    width: 30%;
+    width: 20%;
 }
 header .main-navbar {
-    width: 70%;
+    width: 80%;
 }
 footer .icon-box .icon svg {
     width: 50px;
@@ -141,9 +201,9 @@ header .main-navbar ul.navbar-menu li a:hover , header .main-navbar ul.navbar-me
     color: #E35634;
 }
 header .main-navbar ul.navbar-menu li a:hover:before , header .main-navbar ul.navbar-menu li a.router-link-exact-active:before  {
-    width: 22px;
+    width:50%;
 }
-header .main-navbar ul.navbar-menu li.btn a {
+header .main-navbar ul.navbar-menu li.btn a,#visit-website {
     background: linear-gradient(181deg, #F57F3D, #D7392F);
     color: #fff;
     border-radius: 10px;
@@ -349,7 +409,7 @@ header .main-navbar ul.navbar-menu li.btn a:before {
     margin: auto;
     border-radius: 10px;
 }
-.title-style h2.brand-title , .client-logo .client-text h2 {
+.title-style h2.brand-title , .client-logo .client-text h2,.title h1 {
     font-size: 62px;
     font-weight: bold;
     line-height: 75px;
@@ -554,7 +614,10 @@ header .main-navbar ul.navbar-menu li.btn a:before {
     position: relative;
     overflow-x: hidden;
 }
-.title-style a  , .service .service-content a{
+button#visit-btn {
+    border: none;
+}
+.title-style a  , .service .service-content a,.Read-more-btn a{
     float: right;
     margin: -20px 0 0 0;
     background: linear-gradient(45deg, #F57F3D, #D7392F);
@@ -568,7 +631,13 @@ header .main-navbar ul.navbar-menu li.btn a:before {
     transition: all 0.5s ease;
 }
 
-.title-style a:hover , .service .service-content a:hover {
+
+.descrition {
+    padding: 0px 10px 16px 0px;
+}
+
+
+.title-style a:hover , .service .service-content a:hover,.Read-more-btn a:hover {
     background: #fff;
     box-shadow: 0 18px 32px #00000030;
     color: #e45735;
@@ -1300,14 +1369,14 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
     padding: 0 20px;
 }
 .our-porject li .active {
-    padding: 17px 17px;
+    padding: 13px 13px;
     background: linear-gradient(177deg, #F57F3D, #D7392F);
     text-decoration: none;
     color: #fff !important;
     transition: all 0.5s ease;
 }
 .our-porject li a {
-    padding: 17px 17px;
+    padding: 13px 13px;
     text-decoration: none;
     color: #E55935;
     border-radius: 10px;
@@ -1657,9 +1726,34 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
         height: 80%;
     }
 
+    #popup {
+        left: 5%;
+        top: 5%;
+        
+        width: 90%;
+    }
+    .title h1 {
+        font-size: 39px;
+        color: #1E1F1F;
+        line-height: 42px;
+
+    }
+    img#popup-cancel-icon {
+        width: 14%;
+    }
+
     ul.slick-dots li.slick-active  button {
         left: -1px;
     }
+
+    ul.slick-dots{
+        bottom:0%;
+        display: inline-flex !important;
+        top: 100%;
+        left: 30%;
+
+    }
+
     .client-brand-portfolio img.u-shap {
         width: 25%;
     }    
@@ -1788,12 +1882,12 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
         margin: 0 13px;
     }
     .our-porject li a {
-        padding: 15px 20px;
+        padding: 7px 10px;
         font-size: 14px;
     }
     
     .our-porject li .active {
-        padding: 15px 20px;
+        padding: 7px 10px;
     }
     .service-content , .service {
         padding: 0;
@@ -2177,7 +2271,7 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
     }
     .service .row {
         margin: 0;
-        padding: 140px 0 0 0;
+        padding: 46px 0 0 0;
     }
     .service{
         padding: 90px 0 70px 0;
@@ -2207,6 +2301,7 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
         height: 100vh;
         justify-content: center;
         padding: 0;
+        align-items: center;
     }
     
     header .main-navbar ul.navbar-menu li {
@@ -2230,7 +2325,7 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
     
     header .main-navbar ul.navbar-menu li.btn a {
         -webkit-text-fill-color: #fafafc;
-        padding: 2% 10%;
+        /* padding: 2% 10%; */
     }
     
     header .main-navbar ul.navbar-menu li.btn {
@@ -2252,6 +2347,10 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
         left: 0 !important;
     }
     
+    html,body{
+        overflow-x: hidden !important;
+    }
+
 }
 
 @media screen and (min-width: 568px) and (max-width: 767px) {
@@ -2326,7 +2425,7 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
     }
     
     .our-porject li a {
-        padding: 15px 20px;
+        padding: 7px  11px;
         font-size: 14px;
     }
     
@@ -2585,9 +2684,23 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
     .client-logo .client-text h2 {
         padding: 0;
     }
+
+    html,body{
+        overflow-x: hidden !important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #popup {
+        height: 37%;
+        margin: 0 auto;
+        top: 18%;
+        left: 1%;
+        padding: 17px;
+    }
+
+
     .logo-img {
         padding: 20px;
         height: 150px;
@@ -3012,9 +3125,24 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
     .client-logo .client-text h2 {
         padding: 0;
     }
+
+    ul.slick-dots {
+       
+        left: 37%;
+        bottom: 0;
+        top: 100%;
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1365px) {
+    #popup {
+        left: 1%;
+        height: 34%;
+        padding: 31px;
+    }
+
+
     .client-brand-portfolio img.u-shap {
         width: 10%;
     }    
@@ -3588,7 +3716,21 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
         transform: rotate(360deg);
     }
   } 
-  .half-ball {
+/* 
+  @keyframes rotate-half {
+    from {
+        transform: rotateY(45deg);
+    }
+    to {
+        transform: rotateY(-45deg);
+    }
+  }  */
+
+  .angle{
+    animation: rotate-half 4s linear infinite;
+  }
+
+  .half-ball{
     animation: rotating 4s linear infinite;
    
   }
@@ -3597,6 +3739,8 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
     animation:  example 6s linear infinite;
    
   }
+
+  
 
   @keyframes example {
     0%   { left:0px; top:0px;   transform: scale(1);}
@@ -3607,8 +3751,8 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
   }
   @keyframes example2 {
     0%   { right:0px; top:0px;   transform: scale(1);}
-    25%  { right:100px; top:0px;}
-    50%  { right:100px; top:70px;}
+    25%  { right:0px; top:50px;}
+    50%  { right:0px; top:70px;}
     75%  { right:0px; top:100px;}
     100% { right:0px; top:0px;}
   }
@@ -3634,7 +3778,7 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
 
   
 
-  .tablet,.cream-ball{
+  .tablet,.cream-ball,.tablat{
     animation: rotating2 4s linear infinite;
   }
 
@@ -3646,6 +3790,35 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
   }
 
 
-  .u-shap{
-    animation:  example3 6s linear infinite;
+
+.angle,.u-shap,.c-shap{
+
+
+    animation: rotation-half 3s linear infinite ; 
+
+}
+
+@keyframes rotation-half {
+    50% {
+      transform: rotate(20deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
   }
+
+  @keyframes rolling {
+    from {
+        transform: translate(0deg);
+    }
+    to {
+        transform: translate(360deg);
+    }
+  }
+
+  .roll{
+
+
+    animation: rolling 5s linear infinite ; 
+
+}

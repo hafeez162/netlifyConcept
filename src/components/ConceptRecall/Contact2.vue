@@ -19,8 +19,7 @@
                         </div>
                         <div class="col">
                             <div class="hero-img">
-                                <img src="../../assets/images/Contact.png"  data-aos="zoom-in-right" 
-                        data-aos-duration="600"/>
+                                <img src="../../assets/images/Contact.png"  />
                             </div>
                         </div>
                     </div>

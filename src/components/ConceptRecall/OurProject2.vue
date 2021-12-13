@@ -8,9 +8,9 @@
                         data-aos-duration="600">Our Work</span>
                         <h2 class="brand-title" data-aos="fade-down" data-aos-easing="linear"
                         data-aos-duration="600">Recent Projects</h2>
-                        <a href="#" data-aos="fade-down"
+                        <router-link  data-aos="fade-down"
                                     data-aos-easing="linear"
-                            data-aos-duration="1500">All Projects</a>
+                            data-aos-duration="1500" to="/Projects">All  Projects</router-link>
                         <p data-aos="fade-left" data-aos-easing="linear"
                         data-aos-duration="600">The work will be done according to your instructions which will surely meet your level of satisfaction and expectations.</p>
              
