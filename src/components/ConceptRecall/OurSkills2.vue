@@ -70,6 +70,9 @@
               <div class="builder-img">
                 <img src="../../assets/images/Group 1069.png" />
               </div>
+              <div class="builder-img">
+                <img src="../../assets/images/node.png" />
+              </div>
             </div>
             <div class="col">
               <div class="builder-img">
@@ -82,6 +85,9 @@
             <div class="col">
               <div class="builder-img">
                 <img src="../../assets/images/Vector-2.png" />
+              </div>
+              <div class="builder-img">
+                <img src="../../assets/images/php.png" />
               </div>
             </div>
             <div class="col">
@@ -106,6 +112,38 @@
               </div>
               <div class="builder-img">
                 <img src="../../assets/images/css3.png" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="builder-img">
+                <img src="../../assets/images/ueza9hwy.png" />
+              </div>
+              <div class="builder-img">
+                <img src="../../assets/images/Vector-3.png" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="builder-img">
+                <img src="../../assets/images/Vector-4.png" />
+              </div>
+              <div class="builder-img">
+                <img src="../../assets/images/Vector-5.png" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="builder-img">
+                <img src="../../assets/images/Group 1.png" />
+              </div>
+              <div class="builder-img">
+                <img src="../../assets/images/Group 2.png" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="builder-img">
+                <img src="../../assets/images/html.png" />
+              </div>
+              <div class="builder-img">
+                <img src="../../assets/images/Group 1068.png" />
               </div>
             </div>
           </slick>

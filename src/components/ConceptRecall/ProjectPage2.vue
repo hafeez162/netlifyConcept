@@ -69,9 +69,11 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/Project.png"
+                    src="../../assets/images/Group26.png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -84,9 +86,11 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/project2.png"
+                    src="../../assets/images/app2.png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -99,9 +103,11 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/project3.png"
+                    src="../../assets/images/portfolio3(3).png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -114,39 +120,11 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/project4.png"
+                    src="../../assets/images/app4.png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
-                  <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
-                </div>
-                <div class="overlay">
-                  <div id="popup"></div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="project-img">
-                  <img
-                    src="../../assets/images/project5.png"
-                    id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
-                  <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
-                </div>
-                <div class="overlay">
-                  <div id="popup"></div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="project-img">
-                  <img
-                    src="../../assets/images/project6.png"
-                    id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -170,7 +148,9 @@
                   <img
                     src="../../assets/images/project2.png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -185,7 +165,9 @@
                   <img
                     src="../../assets/images/project3.png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -200,7 +182,9 @@
                   <img
                     src="../../assets/images/project4.png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -215,7 +199,9 @@
                   <img
                     src="../../assets/images/project5.png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -232,9 +218,11 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/Project.png"
+                    src="../../assets/images/logo1.png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -247,9 +235,11 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/project2.png"
+                    src="../../assets/images/logo2.png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -267,9 +257,11 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/project4.png"
+                    src="../../assets/images/logo3.png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -282,24 +274,11 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/project5.png"
+                    src="../../assets/images/logo4.png"
                     id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
-                  <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
-                </div>
-                <div class="overlay">
-                  <div id="popup"></div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="project-img">
-                  <img
-                    src="../../assets/images/project6.png"
-                    id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                    data-description="Our dedicated team of web designers and developers makes your website
+                      according to your instructions and expectations. The layouts, coding and
+                      technicalities has never been a hurdle for us."
                     data-title="AMO ASSOCIATE"
                     data-url="https://amoassociate.com/"
                   />
@@ -316,7 +295,7 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/Project.png"
+                    src="../../assets/images/222.jpg"
                     id="popup-image"
                     data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                     data-title="AMO ASSOCIATE"
@@ -331,7 +310,7 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/project2.png"
+                    src="../../assets/images/dg2.jpg"
                     id="popup-image"
                     data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                     data-title="AMO ASSOCIATE"
@@ -347,7 +326,7 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/project5.png"
+                    src="../../assets/images/dg3.jpg"
                     id="popup-image"
                     data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                     data-title="AMO ASSOCIATE"
@@ -362,7 +341,7 @@
               <div class="col-6">
                 <div class="project-img">
                   <img
-                    src="../../assets/images/project6.png"
+                    src="../../assets/images/888.jpg"
                     id="popup-image"
                     data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                     data-title="AMO ASSOCIATE"
