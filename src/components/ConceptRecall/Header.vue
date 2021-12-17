@@ -17,7 +17,6 @@
                   data-splitting
                   class-active="active"
                   to="/"
-                  target="_blank"
                 >
                   Home</router-link
                 >
@@ -28,7 +27,6 @@
                   data-splitting
                   class-active="active"
                   to="/About"
-                  target="_blank"
                 >
                   About Us</router-link
                 >
@@ -39,7 +37,6 @@
                   data-splitting
                   class-active="active"
                   to="/Services"
-                  target="_blank"
                 >
                   Services</router-link
                 >
@@ -50,7 +47,6 @@
                   data-splitting
                   class-active="active"
                   to="/Projects"
-                  target="_blank"
                   >Our Projects</router-link
                 >
               </li>
@@ -60,7 +56,6 @@
                   data-splitting
                   class-active="active"
                   to="/Clients"
-                  target="_blank"
                   >Our Clients</router-link
                 >
               </li>
@@ -69,12 +64,9 @@
                 data-splitting
                 class-active="active"
                 to="/Contact"
-                target="_blank"
               >
                 <li class="btn">
-                  <a href="" class="rainbow-text animated" data-splitting target="_blank"
-                    >Contact Us</a
-                  >
+                  <a href="" class="rainbow-text animated" data-splitting>Contact Us</a>
                 </li></router-link
               >
             </ul>
