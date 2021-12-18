@@ -410,7 +410,7 @@ export default {
         });
       });
       $("body").on("click", "#popup-cancel-icon", function () {
-        $(this).closest("#popup").hide();
+        // $(this).closest("#popup").hide();
         $(this).closest("#popup").empty();
         $(".overlay").removeClass("intro");
       });

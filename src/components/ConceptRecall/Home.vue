@@ -185,7 +185,7 @@ export default {
         draggable: true,
         dots: true,
         swipe: true,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 3000,
         responsive: [
           {

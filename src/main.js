@@ -23,8 +23,12 @@ import '@fortawesome/fontawesome-free/js/all.js'
 import VueParticles from 'vue-particles'
 Vue.use(VueParticles)
 import Particles from "particles.vue";
-Vue.use(Particles);
 
+
+
+
+
+Vue.use(Particles);
 Vue.use(VueAnime)
 Vue.use(SequentialEntrance);
 
@@ -72,10 +76,16 @@ const routes=[
 const  router=new VueRouter({
 
   routes,
-  mode:'history'
+  mode:'history',
 
 }
-)
+);
+
+
+// router.prototype.open = function (routeObject) {
+//   const {href} = this.resolve(routeObject)
+//   window.open(href, '_blank')
+// }
 
 
 

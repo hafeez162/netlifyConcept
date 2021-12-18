@@ -230,7 +230,7 @@ header .main-navbar ul.navbar-menu li a:hover , header .main-navbar ul.navbar-me
     color: #E35634;
 }
 header .main-navbar ul.navbar-menu li a:hover:before , header .main-navbar ul.navbar-menu li a.router-link-exact-active:before  {
-    width:50%;
+    width:30%;
 }
 header .main-navbar ul.navbar-menu li.btn a,#visit-website {
     background: linear-gradient(181deg, #F57F3D, #D7392F);
@@ -1576,6 +1576,7 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
     background-image: url(../images/contact-bg.png);
     padding: 6.5% 0;
     position: relative;
+    overflow: hidden;
 }
 .contact .u-shap {
     position: absolute;
@@ -1780,6 +1781,7 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
             border: 2px solid #dd4832;
             background: transparent;
             position: relative;
+            margin-left: 4px !important;
         }
         
         ul.slick-dots li button:before {
@@ -3798,6 +3800,11 @@ header .main-navbar ul.navbar-menu li a , header .main-navbar ul.navbar-menu li 
         left: -60px;
         width: 9%;
     }
+
+    img#client-hero{
+        max-width: 530px !important;
+    }
+     
 }
 
 img#client-hero{
