@@ -62,6 +62,7 @@
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
                     </ul>
                   </div>
                 </div>
@@ -89,6 +90,7 @@
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
                     </ul>
                   </div>
                 </div>
@@ -112,6 +114,7 @@
                     <h3>Joe Napolitano</h3>
                     <span>Co-Founder LTD</span>
                     <ul>
+                      <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
@@ -143,6 +146,7 @@
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
                     </ul>
                   </div>
                 </div>
@@ -166,6 +170,7 @@
                     <h3>Joe Napolitano</h3>
                     <span>Co-Founder LTD</span>
                     <ul>
+                      <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
@@ -197,6 +202,7 @@
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
                       <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
                     </ul>
                   </div>
                 </div>
@@ -214,13 +220,8 @@
 
 <script>
 import Slick from "vue-slick";
-
 export default {
   components: { Slick },
-  mounted() {
-    this.$anime(/* ... animate something ... */);
-  },
-
   data() {
     return {
       slickOptions: {
@@ -281,6 +282,10 @@ export default {
     };
   },
 
+  mounted() {
+    this.$anime(/* ... animate something ... */);
+  },
+
   methods: {
     // next() {
     //     this.$refs.slick.next();
@@ -298,4 +303,5 @@ export default {
     },
   },
 };
-</script>
+</script> 
+

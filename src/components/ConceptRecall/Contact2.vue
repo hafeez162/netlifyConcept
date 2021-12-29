@@ -180,7 +180,7 @@
         </div>
         <div class="col-xs-1 col-sm-1 col-md-6 col-lg-6 col-xl-6">
           <div class="map-img">
-            <img src="../../assets/images/map.png" alt="" />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14479.803945024423!2d67.0583741!3d24.86552355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e9cc16f27fd%3A0x552dbdbb8971a12d!2s3rd%20Floor%2C%20Iqra%20Center%2C%201%2F6-J%20Shahrah-e-Faisal%2C%20Pakistan%20Employees%20Co-Operative%20Housing%20Society%20PECHS%20Extension%20Block%206%20PECHS%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2075400!5e0!3m2!1sen!2s!4v1640706614483!5m2!1sen!2s" width="100%" height="750px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
         </div>
       </div>
@@ -193,7 +193,6 @@
 <script>
 import Header from "./Header.vue";
 import Footer from "./Footer2.vue";
-
 export default {
   name: "Contact",
   components: {
@@ -201,4 +200,5 @@ export default {
     Footer,
   },
 };
-</script>
+</script> 
+

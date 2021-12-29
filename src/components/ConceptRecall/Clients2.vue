@@ -29,9 +29,7 @@
             @lazyLoaded="handleLazyLoaded"
             @lazyLoadError="handleLazeLoadError"
           >
-            <b-col class="client-porfilio-img">
-              <img src="../../assets/images/logo8.png" />
-            </b-col>
+           
             <b-col class="client-porfilio-img">
               <img src="../../assets/images/logo6.png" />
             </b-col>
@@ -43,6 +41,15 @@
             </b-col>
             <b-col class="client-porfilio-img">
               <img src="../../assets/images/logo8.png" />
+            </b-col>
+            <b-col class="client-porfilio-img">
+              <img src="../../assets/images/logo_US.png" />
+            </b-col>
+            <b-col class="client-porfilio-img">
+              <img src="../../assets/images/Group 2171.png" />
+            </b-col>
+            <b-col class="client-porfilio-img">
+              <img src="../../assets/images/Component 7 – 11.png" />
             </b-col>
           </slick>
           <!-- <div class="client-porfilio-img">
@@ -64,13 +71,8 @@
 
 <script>
 import Slick from "vue-slick";
-
 export default {
   components: { Slick },
-  mounted() {
-    this.$anime(/* ... animate something ... */);
-  },
-
   data() {
     return {
       slickOptions: {
@@ -118,6 +120,10 @@ export default {
     };
   },
 
+  mounted() {
+    this.$anime(/* ... animate something ... */);
+  },
+
   methods: {
     // next() {
     //     this.$refs.slick.next();
@@ -135,4 +141,5 @@ export default {
     },
   },
 };
-</script>
+</script> 
+

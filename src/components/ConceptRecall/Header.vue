@@ -4,7 +4,7 @@
       <b-container>
         <b-row>
           <div class="site-logo">
-            <a href="#">
+            <a :href="result">
               <img src="../../assets/images/Logo Consept.svg" />
             </a>
           </div>
@@ -89,6 +89,13 @@
 import $ from "jquery";
 export default {
   name: "Header",
+
+  data() {
+    return {
+      result: window.location.protocol + "//" + window.location.host,
+    };
+  },
+
   mounted() {
     $(document).ready(function () {
       $("#nav-icon2").click(function () {
@@ -97,6 +104,12 @@ export default {
         $(".main-navbar").toggle();
       });
     });
+  },
+
+  methods: {
+    myFunction() {
+      alert("hello world");
+    },
   },
 };
 </script>

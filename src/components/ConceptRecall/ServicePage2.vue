@@ -29,7 +29,7 @@
       <!-- /hero-section -->
 
       <!-- service-section -->
-      <section class="service">
+      <section class="service" id="service_section">
         <div class="container">
           <div class="row">
             <div class="col-6 service-img-small">
@@ -445,4 +445,5 @@ export default {
     Footer,
   },
 };
-</script>
+</script> 
+
