@@ -20,8 +20,12 @@
             <img class="c-shap" src="../../assets/images/angle.png" />
           </div>
           <div class="col">
-            <div class="hero-img">
-              <img src="../../assets/images/about.png" />
+            <div class="hero-img"  id="about-banner-image">
+             <img src="../../assets/images/Ellipse 11.png" alt="" id="Ellipse" />
+                  <img src="../../assets/images/Illustration.gif" alt="" id="desktop" />
+                  <img src="../../assets/images/Message.gif" alt="" id="Message2" />
+                  <img src="../../assets/images/Asset.gif" alt="" id="Asset" />
+                  <img src="../../assets/images/Flower.gif" alt="" id="Flower2" />
               <img
                 class="roll"
                 src="../../assets/images/roll.png"
@@ -57,14 +61,9 @@ import Values2 from "./Values2.vue";
 import Clients from "../ConceptRecall/Clients2.vue";
 import OurTestimonials from "./OurTestimonials.vue";
 import Footer2 from "./Footer2.vue";
-
 export default {
   name: "About2",
   components: { Header, Values2, OurTestimonials, Footer2, Clients },
-  mounted() {
-    this.$anime(/* ... animate something ... */);
-  },
-
   data() {
     return {
       slickOptions: {
@@ -86,6 +85,10 @@ export default {
     };
   },
 
+  mounted() {
+    this.$anime(/* ... animate something ... */);
+  },
+
   methods: {
     // next() {
     //     this.$refs.slick.next();
@@ -104,3 +107,4 @@ export default {
   },
 };
 </script>
+

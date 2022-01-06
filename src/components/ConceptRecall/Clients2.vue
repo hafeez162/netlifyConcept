@@ -29,7 +29,6 @@
             @lazyLoaded="handleLazyLoaded"
             @lazyLoadError="handleLazeLoadError"
           >
-           
             <b-col class="client-porfilio-img">
               <img src="../../assets/images/logo6.png" />
             </b-col>
@@ -63,6 +62,7 @@
                         </div> -->
         </div>
         <img class="roll" src="../../assets/images/roll.png" />
+        <img class="cream-ball" src="../../assets/images/light--pink.png" />
       </div>
     </section>
     <!-- /client-logo -->
@@ -141,5 +141,4 @@ export default {
     },
   },
 };
-</script> 
-
+</script>

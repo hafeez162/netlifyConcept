@@ -22,7 +22,7 @@
           </div>
           <div class="col">
             <div class="hero-img">
-              <img src="../../assets/images/project-hero.png" />
+              <img src="../../assets/images/Project.gif" />
             </div>
           </div>
         </div>
@@ -68,70 +68,170 @@
             <div class="row">
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/Group26.png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/Group26.png" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
+
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/Group26.png" alt="" />
+                            <img src="../../assets/images/app2.png" alt="" />
+                            <img src="../../assets/images/portfolio3(3).png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/app2.png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/app2.png" id="popup-image" />
+
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
+
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/app2.png" alt="" />
+                            <img src="../../assets/images/app2.png" alt="" />
+                            <img src="../../assets/images/portfolio3(3).png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/portfolio3(3).png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/portfolio3(3).png" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
+
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/portfolio3(3).png" alt="" />
+                            <img src="../../assets/images/app2.png" alt="" />
+                            <img src="../../assets/images/portfolio3(3).png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/app4.png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/app4.png" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/app4.png" alt="" />
+                            <img src="../../assets/images/app2.png" alt="" />
+                            <img src="../../assets/images/portfolio3(3).png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -145,70 +245,166 @@
                                 </div> -->
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/project2.png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/project2.png" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/project2.png" alt="" />
+                            <img src="../../assets/images/app2.png" alt="" />
+                            <img src="../../assets/images/portfolio3(3).png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/project3.png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/project3.png" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/project3.png" alt="" />
+                            <img src="../../assets/images/project2.png" alt="" />
+                            <img src="../../assets/images/portfolio3(3).png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/project4.png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/project4.png" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/project4.png" alt="" />
+                            <img src="../../assets/images/project2.png" alt="" />
+                            <img src="../../assets/images/project3.png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/project5.png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/project5.png" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/project5.png" alt="" />
+                            <img src="../../assets/images/project3.png" alt="" />
+                            <img src="../../assets/images/project4.png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -217,36 +413,84 @@
             <div class="row">
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/logo1.png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/logo1.png" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/logo1.png" alt="" />
+                            <img src="../../assets/images/logo2.png" alt="" />
+                            <img src="../../assets/images/logo3.png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/logo2.png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/logo2.png" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/logo2.png" alt="" />
+                            <img src="../../assets/images/logo1.png" alt="" />
+                            <img src="../../assets/images/logo3.png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <!-- <div class="col-6">
@@ -256,36 +500,84 @@
                                     </div> -->
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/logo3.png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/logo3.png" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/logo3.png" alt="" />
+                            <img src="../../assets/images/app2.png" alt="" />
+                            <img src="../../assets/images/portfolio3(3).png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/logo4.png"
-                    id="popup-image"
-                    data-description="Our dedicated team of web designers and developers makes your website
-                      according to your instructions and expectations. The layouts, coding and
-                      technicalities has never been a hurdle for us."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/logo4.png" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/logo4.png" alt="" />
+                            <img src="../../assets/images/logo3.png" alt="" />
+                            <img src="../../assets/images/logo2.png" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -309,48 +601,126 @@
               </div>
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/dg2.jpg"
-                    id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/dg2.jpg" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/dg2.jpg" alt="" />
+                            <img src="../../assets/images/dg3.jpg" alt="" />
+                            <img src="../../assets/images/888.jpg" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/dg3.jpg"
-                    id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/dg3.jpg" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/dg3.jpg" alt="" />
+                            <img src="../../assets/images/dg2.jpg" alt="" />
+                            <img src="../../assets/images/888.jpg" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="project-img">
-                  <img
-                    src="../../assets/images/888.jpg"
-                    id="popup-image"
-                    data-description="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-                    data-title="AMO ASSOCIATE"
-                    data-url="https://amoassociate.com/"
-                  />
+                  <img src="../../assets/images/888.jpg" id="popup-image" />
                   <img src="../../assets/images/cancel.jpg" alt="" id="cancle-btn" />
                 </div>
                 <div class="overlay">
-                  <div id="popup"></div>
+                  <div id="popup">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-6" id="popp-slide-section">
+                          <slick ref="slick" :options="slickOptions">
+                            <img src="../../assets/images/888.jpg" alt="" />
+                            <img src="../../assets/images/dg2.jpg" alt="" />
+                            <img src="../../assets/images/888.jpg" alt="" />
+                          </slick>
+                          <img
+                            src="../../assets/images/cancel.jpg"
+                            id="popup-cancel-icon"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title"><h1>AMO ASSOCIATE</h1></div>
+                          <div class="descrition">
+                            <p>
+                              Our dedicated team of web designers and developers makes
+                              your website according to your instructions and
+                              expectations. The layouts, coding and technicalities has
+                              never been a hurdle for us."
+                            </p>
+                          </div>
+                          <div class="Read-more-btn">
+                            <button id="visit-btn">
+                              <a href="https://amoassociate.com/"> Visit Website</a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -379,6 +749,7 @@
 </template>
 
 <script>
+import Slick from "vue-slick";
 import Header from "./Header.vue";
 import Footer from "./Footer2.vue";
 import OurSkills2 from "./OurSkills2.vue";
@@ -387,14 +758,58 @@ import $ from "jquery";
 export default {
   name: "ProjectPage",
   components: {
+    Slick,
     Header,
     Footer,
     OurSkills2,
     OurTestimonials,
   },
 
+  data() {
+    return {
+      slickOptions: {
+        slidesToShow: 1,
+        infinite: true,
+        accessibility: true,
+        adaptiveHeight: false,
+        arrows: false,
+        fade: true,
+        draggable: true,
+        dots: true,
+        swipe: true,
+        // autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [
+          {
+            breakpoint: 1120,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+
+        // Any other options that can be got from plugin documentation
+      },
+    };
+  },
   mounted() {
     $(document).ready(function () {
+      $("#popup").hide();
       $(function () {
         $(".tab").click(function (e) {
           e.preventDefault();
@@ -409,38 +824,26 @@ export default {
           $(content).show();
         });
       });
-      $("body").on("click", "#popup-cancel-icon", function () {
-        // $(this).closest("#popup").hide();
-        $(this).closest("#popup").empty();
+
+      $("body #popup-cancel-icon").on("click", function () {
+        $(this).closest(".overlay").find("#popup").hide();
         $(".overlay").removeClass("intro");
       });
+
       $(".project-img").click(function () {
         $(".overlay").addClass("intro");
-        var image_url = $(this).find("#popup-image").attr("src");
-        var title = $(this).find("#popup-image").attr("data-title");
-        var Description = $(this).find("#popup-image").attr("data-description");
-        var btn_url = $(this).find("#popup-image").attr("data-url");
-        var image_cancel = $(this).find("#cancle-btn").attr("src");
-
-        var data =
-          '<div  class="container"><div class="row"><div  class="col-md-6"><img src=' +
-          image_url +
-          '  id="popup_image"/><img src=' +
-          image_cancel +
-          ' id="popup-cancel-icon" /></div><div  class="col-md-6"><div  class="title"><h1>' +
-          title +
-          '</h1></div>  <div  class="descrition"><p>' +
-          Description +
-          '</p></div><div  class="Read-more-btn"><button  id="visit-btn"><a href=' +
-          btn_url +
-          "> Visit Website</a></button></div> </div> </div></div>";
-
-        // alert(image_cancel);
-
-        $(this).closest(".col-6").find("#popup").append(data);
-        $(this).closest("#popup").show();
+        $(this).closest(".col-6").find("#popup").show();
       });
     });
+  },
+
+  methods: {
+    reInit() {
+      // Helpful if you have to deal with v-for to update dynamic lists
+      this.$nextTick(() => {
+        this.$refs.slick.reSlick();
+      });
+    },
   },
 };
 </script>

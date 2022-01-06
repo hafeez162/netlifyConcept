@@ -42,7 +42,16 @@
               </div>
               <div class="col">
                 <div class="hero-img">
-                  <img src="../../assets/images/hero-section.png" />
+                  <img src="../../assets/images/Ellipse 11.png" alt="" id="Ellipse" />
+                  <img src="../../assets/images/Layer-62.gif" alt="" id="mobile-app" />
+                  <img src="../../assets/images/Message.gif" alt="" id="Message" />
+                  <img src="../../assets/images/Buttons.gif" alt="" id="Buttons" />
+                  <img src="../../assets/images/Chart.gif" alt="" id="Chart" />
+                  <img src="../../assets/images/Gif-lines.gif" alt="" id="Gif-lines" />
+                  <img src="../../assets/images/Gif-lines.gif" alt="" id="Gif-lines2" />
+                  <img src="../../assets/images/Ball.gif" alt="" id="Ball-gif" />
+                  <img src="../../assets/images/Flower.gif" alt="" id="Flower" />
+                  <img src="../../assets/images/Tree.gif" alt="" id="tree" />
                 </div>
               </div>
             </div>
@@ -70,7 +79,11 @@
               </div>
               <div class="col">
                 <div class="hero-img">
-                  <img src="../../assets/images/second-slide.png" />
+                  <img src="../../assets/images/Ellipse 11.png" alt="" id="Ellipse" />
+                  <img src="../../assets/images/Illustration.gif" alt="" id="desktop" />
+                  <img src="../../assets/images/Message.gif" alt="" id="Message2" />
+                  <img src="../../assets/images/Asset.gif" alt="" id="Asset" />
+                  <img src="../../assets/images/Flower.gif" alt="" id="Flower2" />
                 </div>
               </div>
             </div>
@@ -98,7 +111,8 @@
               </div>
               <div class="col">
                 <div class="hero-img">
-                  <img src="../../assets/images/third-slide.png" />
+                  <img src="../../assets/images/1st.gif" alt="" id="logo-gif" />
+                   <img src="../../assets/images/Layer-11.png" alt="" id="Flower2" />
                 </div>
               </div>
             </div>
@@ -126,7 +140,9 @@
               </div>
               <div class="col">
                 <div class="hero-img">
-                  <img src="../../assets/images/fourth-slide.png" />
+                  <img src="../../assets/images/Ellipse 11.png" alt="" id="Ellipse" />
+                  <img src="../../assets/images/Digital-Marketing.gif" alt="" id="desktop" />
+                 
                 </div>
               </div>
             </div>
@@ -169,10 +185,6 @@ export default {
     Footer2,
     Slick,
   },
-  mounted() {
-    this.$anime(/* ... animate something ... */);
-  },
-
   data() {
     return {
       slickOptions: {
@@ -185,7 +197,7 @@ export default {
         draggable: true,
         dots: true,
         swipe: true,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 3000,
         responsive: [
           {
@@ -216,6 +228,10 @@ export default {
     };
   },
 
+  mounted() {
+    this.$anime(/* ... animate something ... */);
+  },
+
   methods: {
     // next() {
     //     this.$refs.slick.next();
@@ -234,3 +250,4 @@ export default {
   },
 };
 </script>
+

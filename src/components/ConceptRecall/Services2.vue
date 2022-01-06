@@ -21,12 +21,12 @@
             Branding Services
           </h2>
           <router-link
-            to="/Services"
+            to="/services"
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1000"
           >
-            Services</router-link
+            All Services</router-link
           >
           <p>
             The work will be done according to your instructions which will surely meet
@@ -37,7 +37,7 @@
           <div class="col-3" data-aos="flip-left" data-aos-duration="1000">
             <div class="service-box">
               <div class="service-img">
-                <img src="../../assets/images/layer-0.png" />
+                <img src="../../assets/images/Mobile Application.png" />
               </div>
               <h3>Mobile Application</h3>
             </div>
@@ -50,7 +50,7 @@
           >
             <div class="service-box">
               <div class="service-img">
-                <img src="../../assets/images/layer-01.png" />
+                <img src="../../assets/images/Website Development.png" />
               </div>
               <h3>Website Development</h3>
             </div>
@@ -63,7 +63,7 @@
           >
             <div class="service-box">
               <div class="service-img">
-                <img src="../../assets/images/mobile.png" />
+                <img src="../../assets/images/Logo & Branding.png" />
               </div>
               <h3>Logo & Branding</h3>
             </div>
@@ -76,7 +76,7 @@
           >
             <div class="service-box">
               <div class="service-img">
-                <img src="../../assets/images/screen.png" />
+                <img src="../../assets/images/Digital Meting.png" />
               </div>
               <h3>Digital Marketing</h3>
             </div>
@@ -94,3 +94,4 @@ export default {
   name: "Services2",
 };
 </script>
+

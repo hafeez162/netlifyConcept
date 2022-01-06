@@ -22,7 +22,7 @@
           </div>
           <div class="col">
             <div class="hero-img">
-              <img src="../../assets/images/LAPTOP-LEFT.png" id="client-hero" />
+              <img src="../../assets/images/Client.gif" id="client-hero" />
             </div>
           </div>
         </div>
@@ -168,3 +168,4 @@ export default {
   },
 };
 </script>
+

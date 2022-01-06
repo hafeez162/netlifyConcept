@@ -20,7 +20,7 @@
             </div>
             <div class="col">
               <div class="hero-img">
-                <img src="../../assets/images/service-hero.png" />
+                <img src="../../assets/images/Services.gif" id="services-gif" />
               </div>
             </div>
           </div>
@@ -31,7 +31,8 @@
       <!-- service-section -->
       <section class="service" id="service_section">
         <div class="container">
-          <div class="row">
+          
+          <!-- <div class="row">
             <div class="col-6 service-img-small">
               <div
                 class="service-img"
@@ -97,6 +98,81 @@
                   data-aos="fade-down"
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="800"
+                  >Get More Info</a
+                >
+              </div>
+            </div>
+          </div> -->
+          
+          <div class="row">
+            <div class="col-6 service-img-small">
+              <div
+                class="service-img"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <img src="../../assets/images/web.png" />
+              </div>
+            </div>
+            <div class="col-6 service-img-big">
+              <div class="service-content">
+                <div
+                  class="title-style"
+                  data-aos="fade-left"
+                  data-aos-easing="linear"
+                  data-aos-duration="800"
+                >
+                  <h2 class="brand-title">Web Development</h2>
+                  <p
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                  >
+                    Our dedicated team of web designers and developers makes your website
+                    according to your instructions and expectations. The layouts, coding
+                    and technicalities has never been a hurdle for us.
+                  </p>
+                </div>
+                <ul>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                  >
+                    <div class="service-icon"><i class="fas fa-check"></i></div>
+                    Website Design
+                  </li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                  >
+                    <div class="service-icon"><i class="fas fa-check"></i></div>
+                    Responsive Design
+                  </li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                  >
+                    <div class="service-icon"><i class="fas fa-check"></i></div>
+                    Ecommerce Website Design
+                  </li>
+                  <li
+                    data-aos="fade-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                  >
+                    <div class="service-icon"><i class="fas fa-check"></i></div>
+                    Content Management Systems
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  data-aos="fade-up"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000"
                   >Get More Info</a
                 >
               </div>
@@ -179,151 +255,7 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-6 service-img-small">
-              <div
-                class="service-img"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                <img src="../../assets/images/web.png" />
-              </div>
-            </div>
-            <div class="col-6 service-img-big">
-              <div class="service-content">
-                <div
-                  class="title-style"
-                  data-aos="fade-left"
-                  data-aos-easing="linear"
-                  data-aos-duration="800"
-                >
-                  <h2 class="brand-title">Web Development</h2>
-                  <p
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                  >
-                    Our dedicated team of web designers and developers makes your website
-                    according to your instructions and expectations. The layouts, coding
-                    and technicalities has never been a hurdle for us.
-                  </p>
-                </div>
-                <ul>
-                  <li
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                  >
-                    <div class="service-icon"><i class="fas fa-check"></i></div>
-                    Website Design
-                  </li>
-                  <li
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                  >
-                    <div class="service-icon"><i class="fas fa-check"></i></div>
-                    Responsive Design
-                  </li>
-                  <li
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                  >
-                    <div class="service-icon"><i class="fas fa-check"></i></div>
-                    Ecommerce Website Design
-                  </li>
-                  <li
-                    data-aos="fade-left"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                  >
-                    <div class="service-icon"><i class="fas fa-check"></i></div>
-                    Content Management Systems
-                  </li>
-                </ul>
-                <a
-                  href="#"
-                  data-aos="fade-up"
-                  data-aos-easing="ease-out-cubic"
-                  data-aos-duration="1000"
-                  >Get More Info</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-6 service-img-big">
-              <img class="angle" src="../../assets/images/angle.png" />
-              <div class="service-content">
-                <div
-                  class="title-style"
-                  data-aos="fade-right"
-                  data-aos-easing="linear"
-                  data-aos-duration="800"
-                >
-                  <h2 class="brand-title">Mobile Apps</h2>
-                  <p>
-                    Our applications are designed by leading app developers focusing each
-                    and every aspect of applications. The mechanics of application are
-                    crucially studied by our developers before proceeding it.
-                  </p>
-                </div>
-                <ul>
-                  <li
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                  >
-                    <div class="service-icon"><i class="fas fa-check"></i></div>
-                    App Design
-                  </li>
-                  <li
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                  >
-                    <div class="service-icon"><i class="fas fa-check"></i></div>
-                    App Strategy
-                  </li>
-                  <li
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                  >
-                    <div class="service-icon"><i class="fas fa-check"></i></div>
-                    App Marketing
-                  </li>
-                  <li
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="800"
-                  >
-                    <div class="service-icon"><i class="fas fa-check"></i></div>
-                    App Development
-                  </li>
-                </ul>
-                <a
-                  href="#"
-                  data-aos="fade-down"
-                  data-aos-easing="linear"
-                  data-aos-duration="1500"
-                  >Get More Info</a
-                >
-              </div>
-            </div>
-            <div class="col-6 service-img-small">
-              <div
-                class="service-img"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                <img src="../../assets/images/hero-section.png" />
-              </div>
-            </div>
-          </div>
+          
           <div class="row">
             <div class="col-6 service-img-small">
               <div
@@ -422,11 +354,83 @@
                   data-aos="fade-up"
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="1000"
+                  >Get More Info</a>
+              </div>
+            </div>
+        
+          </div> 
+          <div class="row">
+              <div class="col-6 service-img-big">
+              <img class="angle" src="../../assets/images/angle.png" />
+              <div class="service-content">
+                <div
+                  class="title-style"
+                  data-aos="fade-right"
+                  data-aos-easing="linear"
+                  data-aos-duration="800"
+                >
+                  <h2 class="brand-title">Mobile Apps</h2>
+                  <p>
+                    Our applications are designed by leading app developers focusing each
+                    and every aspect of applications. The mechanics of application are
+                    crucially studied by our developers before proceeding it.
+                  </p>
+                </div>
+                <ul>
+                  <li
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                  >
+                    <div class="service-icon"><i class="fas fa-check"></i></div>
+                    App Design
+                  </li>
+                  <li
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                  >
+                    <div class="service-icon"><i class="fas fa-check"></i></div>
+                    App Strategy
+                  </li>
+                  <li
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                  >
+                    <div class="service-icon"><i class="fas fa-check"></i></div>
+                    App Marketing
+                  </li>
+                  <li
+                    data-aos="fade-right"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"
+                  >
+                    <div class="service-icon"><i class="fas fa-check"></i></div>
+                    App Development
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
                   >Get More Info</a
                 >
               </div>
             </div>
+            <div class="col-6 service-img-small">
+              <div
+                class="service-img"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <img src="../../assets/images/hero-section.png" />
+              </div>
+            </div>
           </div>
+       
         </div>
       </section>
       <!-- /service-section -->
@@ -445,5 +449,5 @@ export default {
     Footer,
   },
 };
-</script> 
+</script>
 

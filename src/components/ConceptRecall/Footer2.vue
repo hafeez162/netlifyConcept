@@ -88,15 +88,15 @@
             <h3>Our Services</h3>
             <ul>
               <li><a href="#">Mobile Apps</a></li>
-              <li><a href="#">Web Designing</a></li>
+              <li><a href="#">Website Development</a></li>
+              <!-- <li><a href="#">Web Designing</a></li> -->
               <li><a href="#">Logo Designing</a></li>
               <li><a href="#">Digital Marketing</a></li>
-              <li><a href="#">Strategy & Consulting</a></li>
               <li><a href="#">Branding & Designing</a></li>
-              <li><a href="#">Website Development</a></li>
+              
             </ul>
           </div>
-          <div class="recent-work">
+          <!-- <div class="recent-work">
             <h3>Recent Works</h3>
             <ul>
               <li><a href="#">Unilayer</a></li>
@@ -107,7 +107,7 @@
               <li><a href="#">KLY Bourne Profile</a></li>
               <li><a href="#">Fantastic Foursome</a></li>
             </ul>
-          </div>
+          </div> -->
           <div class="soical-links">
             <h3>Contact Us</h3>
             <div class="icon-box">
@@ -135,8 +135,8 @@
               <div class="soical-content">
                 <h4>Location:</h4>
                 <p>
-                  3rd Floor, 1/6C, Sarah-e-Faisal Rd,Block-6 Nursery Karachi, Karachi
-                  City, Sindh,Pakistan
+                  <a href="https://goo.gl/maps/PBzaA5fq84fMPmfK8">3rd Floor, 1/6C, Sarah-e-Faisal Rd,Block-6 Nursery Karachi, Karachi
+                  City, Sindh,Pakistan</a>
                 </p>
               </div>
             </div>
@@ -155,3 +155,4 @@ export default {
   name: "Footer2",
 };
 </script>
+

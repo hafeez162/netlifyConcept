@@ -26,7 +26,7 @@
                   class="rainbow-text animated"
                   data-splitting
                   class-active="active"
-                  to="/About"
+                  to="/about"
                 >
                   About Us</router-link
                 >
@@ -36,7 +36,7 @@
                   class="rainbow-text animated"
                   data-splitting
                   class-active="active"
-                  to="/Services"
+                  to="/services"
                 >
                   Services</router-link
                 >
@@ -46,7 +46,7 @@
                   class="rainbow-text animated"
                   data-splitting
                   class-active="active"
-                  to="/Projects"
+                  to="/projects"
                   >Our Projects</router-link
                 >
               </li>
@@ -55,7 +55,7 @@
                   class="rainbow-text animated"
                   data-splitting
                   class-active="active"
-                  to="/Clients"
+                  to="/clients"
                   >Our Clients</router-link
                 >
               </li>
@@ -63,7 +63,7 @@
                 class="rainbow-text animated"
                 data-splitting
                 class-active="active"
-                to="/Contact"
+                to="/contact"
               >
                 <li class="btn">
                   <a href="" class="rainbow-text animated" data-splitting>Contact Us</a>

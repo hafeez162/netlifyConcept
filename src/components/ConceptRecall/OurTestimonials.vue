@@ -238,6 +238,7 @@ export default {
         edgeFriction: 0.3,
         swipe: true,
         autoplay: true,
+        centerMode: true,
         autoplaySpeed: 4000,
         responsive: [
           {
@@ -303,5 +304,5 @@ export default {
     },
   },
 };
-</script> 
+</script>
 

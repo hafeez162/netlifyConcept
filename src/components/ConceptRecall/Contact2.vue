@@ -22,7 +22,8 @@
           </div>
           <div class="col">
             <div class="hero-img">
-              <img src="../../assets/images/Contact.png" />
+              <img src="../../assets/images/Ellipse 12.png" />
+              <img src="../../assets/images/Contact (3).gif" />
             </div>
           </div>
         </div>
@@ -200,5 +201,5 @@ export default {
     Footer,
   },
 };
-</script> 
+</script>
 

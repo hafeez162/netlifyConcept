@@ -46,7 +46,7 @@ const routes=[
   component:Home
 },
 {
-  path:'/About',
+  path:'/about',
   component:About2
 },
 {
@@ -54,15 +54,15 @@ const routes=[
   component:Ourproject
 },
 {
-  path:'/Services',
+  path:'/services',
   component:Services
 },
 {
-  path:'/Clients',
+  path:'/clients',
   component:Clientspage
 },
 {
-  path:'/Contact',
+  path:'/contact',
   component:Contact
 },
 // {
